@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>IMM 130-02 &ndash; Session 4</title>
+<title>IMM 130-03 &ndash; Session 4</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Design Fundementals for the Web Session #4">
 <meta name="author" content="thomesoni@gmail.com">
@@ -119,9 +119,11 @@ and a <code>&lt;footer&gt;&lt;/footer&gt;</code></li>
 <h3>Centering Demo</h3>
 <p>Let&#39;s open up JSFiddle and experiment with the CSS centering porperties:</p>
 <ul>
-<li>text-align: center;</li>
-<li>margin: xxxpx auto;</li>
+<li><code>margin: xxpx auto xxpx auto; /* centers a container element */</code></li>
+<li><code>text-align: center; /* centers text within an element */</code></li>
 </ul>
+
+<p>Here&#39;s the <a href="http://jsfiddle.net/markdthompson/nCPYf/" title="centering fiddle">CSS Centering Fiddle</a>.</p>
 
 <h3>More info on CSS Centering</h3>
 <ul>
@@ -140,11 +142,13 @@ and a <code>&lt;footer&gt;&lt;/footer&gt;</code></li>
 <h3>Positioning Demo</h3>
 <p>Let&#39;s open up JSFiddle and experiment with the CSS positioning porperties:</p>
 <ul>
-<li>position: static | absolute | fixed | relative | initial | inherit;</li>
-<li>left: xpx;</li>
-<li>right: xpx;</li>
-<li>z-index: x;</li>
+<li><code>position: absolute;</code></li>
+<li><code>top: 50px;</code></li>
+<li><code>left: 0px;</code></li>
+<li><code>z-index: -1; /* puts the element behind the others */</code></li>
 </ul>
+
+<p>Here&#39;s the <a href="http://jsfiddle.net/markdthompson/4frLG/" title="positioning fiddle">CSS Positioning Fiddle</a>.</p>
 
 <h3>More info on CSS Positioning</h3>
 <ul>
@@ -163,9 +167,11 @@ and a <code>&lt;footer&gt;&lt;/footer&gt;</code></li>
 <h3>Float Demo</h3>
 <p>Let&#39;s open up JSFiddle and experiment with the CSS positioning porperties:</p>
 <ul>
-<li>float: left | right;</li>
-<li>clear: left | right;</li>
+<li><code>float: left;</code></li>
+<li><code>clear: left;</code></li>
 </ul>
+
+<p>Here&#39;s the <a href="http://jsfiddle.net/markdthompson/x4HXr/17/" title="float fiddle">CSS Float Fiddle</a>.</p>
 
 <h3>More info on CSS Floating</h3>
 <ul>
@@ -194,9 +200,9 @@ and a <code>&lt;footer&gt;&lt;/footer&gt;</code></li>
 <section>
 <h1>Types of Layouts</h1> 
 <ul>
-<li>static</li>
-<li>liquid</li>
-<li>responsive</li>
+<li>static - fixed width elements</li>
+<li>liquid - flexible width elements</li>
+<li>responsive - flexible grid with media queries</li>
 </ul>
 
 <p>Check out <a href="http://liquidapsive.com/" title="check out liquidapsive.com">Liquidapsive.com</a> to get a better idea of some of the different types of layouts your can make, depending on your users&#39; needs.</p>
